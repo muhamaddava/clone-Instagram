@@ -1,0 +1,149 @@
+.main{
+    background-color: #f2f2f2;
+    width: 75%;
+    padding-bottom: 363px;
+}
+.feed {
+    width: 470px;
+    margin-right: 153px;
+    border-radius: 8px;
+    border: 0.5px solid lightgray;
+    margin-left: 9rem;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+}
+.account{
+    width: 440px;
+    margin-top: 10px;
+    font-size: 14px;
+    margin-right: 6rem;
+    margin-top: -15rem;
+    
+}
+.account-content{
+    width: 100%;
+}
+.account-content > li {
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.account-content > li > p {
+    margin-left: 20px;
+    margin-right: auto;
+
+    align-items: flex-start;
+}
+.account-content > li > a{
+    color: skyblue;
+    font-size: 13px;
+}
+.account-content > li > p > span:first-child{
+    font-weight: bold;
+    color: black;
+}
+.account-content > li > p > span:last-child{
+    color: gray;
+}
+.img-wrap{
+    border-radius: 50%;
+    overflow: hidden;
+    border: 0.5px solid #f2f2f2;
+    display: flex;
+}
+li.suggestion > span {
+    color: gray;
+}
+li.suggestion > a {
+    color: black;
+}
+.about{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.about > a {
+    color: lightgray;
+    font-size: 11px;
+    margin-right: 2px;
+}
+.name {
+    color: lightgray;
+    font-size: 11px;
+    margin-right: auto;
+}
+.wrapper{
+    width: 80%;
+    display: flex;
+    grid-gap: 30px;
+    margin-top: -70px;
+}
+.tengah{
+    width: 95%;
+}
+.profile{
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    
+}
+.profile > p {
+    margin-left: 18px;
+    margin-right: auto;
+}
+.profile > p > span:first-child{
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-right: auto;
+}
+.imgs > div > img {
+    width: 100%;
+}
+.feed-icons {
+    width: 95%;
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+.feed-icons>img {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.feed-icons>img:last-child {
+    margin-left: auto
+}
+
+.likes{
+    margin-right:auto ;
+    margin-left: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.comments{
+    width: 94%;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+.comments > span.title{
+    font-weight: 700;
+}
+.comments > span.hashtag{
+    color: darkblue;
+}
+.count{
+    margin-left: 15px;
+    margin-right: auto;
+    color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.time{
+    margin-left: 15px;
+    margin-right: auto;
+    font-size: 10px;
+    color: lightgray;
+}
